@@ -1,0 +1,9 @@
+{
+  "kitchenSinkUrl": "https://example.cypress.io/",
+  "queryingUrl": "https://example.cypress.io/commands/querying",
+  "getUrl": "https://docs.cypress.io/api/commands/get",
+  "containsUrl": "https://docs.cypress.io/api/commands/contains",
+  "withinUrl": "https://docs.cypress.io/api/commands/within",
+  "rootsUrl": "https://docs.cypress.io/api/commands/root",
+  "windowUrl": "https://example.cypress.io/commands/window"
+}

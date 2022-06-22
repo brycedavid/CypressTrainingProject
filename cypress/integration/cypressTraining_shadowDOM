@@ -1,0 +1,13 @@
+describe("Testing the Shadow dom", () => {
+  it("should open side menu and click menu option Favorites", () => {
+    cy.visit("http://localhost:8100");
+    // Open the side menu
+    cy.get("ion-item")
+      .shadow()
+      .find("a")
+      .first()
+      .then(($link) => {
+        expect($link).to.have.class("item-native");
+      });
+  });
+});

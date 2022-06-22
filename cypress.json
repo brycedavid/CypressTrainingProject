@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://example.cypress.io/",
+  "defaultCommandTimeout": 10000,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "screenshotOnRunFailure": false,
+  "experimentalShadowDomSupport": true,
+  "testFiles": [
+    "cypressTraining_1.js",
+    "cypressTraining_2.js",
+    "cypressTraining_shadowDOM"
+  ]
+}
